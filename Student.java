@@ -4,12 +4,12 @@ class Student
 		private int hindi, english, maths;
 		private String name;
 		double avg;
-		 public Student(int h,int e,int m,String n)
+		 public Student(int hindi,int english,int math,String name)
 		{
-			 hindi=h;
-			 english=e;
-			 maths=m;
-			 name=n;
+			 this.hindi=hindi;
+			 this.english=english;
+			 this.maths=math;
+			 this.name=name;
 		}
 		 public void display()
 		{
